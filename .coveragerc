@@ -1,0 +1,16 @@
+[paths]
+source =
+   src/dacase
+   */site-packages/dacase
+
+[run]
+branch = true
+source =
+    dacase
+    tests
+parallel = true
+
+[report]
+show_missing = true
+precision = 2
+omit = *migrations*
